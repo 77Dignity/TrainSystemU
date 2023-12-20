@@ -542,6 +542,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1659058606932450026, guid: 92b168fc5056ae24da15df6d0f756ac6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 199.8
+      objectReference: {fileID: 0}
     - target: {fileID: 2126874447299687750, guid: 92b168fc5056ae24da15df6d0f756ac6,
         type: 3}
       propertyPath: m_Camera
@@ -622,11 +627,32 @@ PrefabInstance:
       propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6100946546067488137, guid: 92b168fc5056ae24da15df6d0f756ac6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -199.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225852971048150248, guid: 92b168fc5056ae24da15df6d0f756ac6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 399.6
+      objectReference: {fileID: 0}
     - target: {fileID: 7270950302635330102, guid: 92b168fc5056ae24da15df6d0f756ac6,
         type: 3}
       propertyPath: m_Name
       value: TileSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 7701939251752102876, guid: 92b168fc5056ae24da15df6d0f756ac6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -399.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8009854117886843016, guid: 92b168fc5056ae24da15df6d0f756ac6,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 3b7ef2b6b71dd6a478c6efff00af8abc,
+        type: 2}
     - target: {fileID: 8161323136238227434, guid: 92b168fc5056ae24da15df6d0f756ac6,
         type: 3}
       propertyPath: m_AnchorMax.y
