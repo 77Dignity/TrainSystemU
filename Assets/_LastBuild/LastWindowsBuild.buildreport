@@ -1,0 +1,545 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!382020655 &-8417344398779350675
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - VRC.Udon.VM
+  - VRC.SDK3.Dynamics.PhysBone
+  - VRC.Udon.Security
+  - UnityAdsShowListener
+  - libvrc_image_loader
+  - nunit.framework
+  - VRCSDK3
+  - VRCCore-Editor
+  - VRC.SDK3.Dynamics.Contact
+  - System.Collections.Immutable
+  - OculusXRPlugin
+  - VRC.Udon.Wrapper
+  - vrc_image_loader
+  - Unity.Burst.Unsafe
+  - librsync.net
+  - OVRPlugin
+  - System.Runtime.CompilerServices.Unsafe
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - UnityAdsInitializationListener
+  - VRC.Udon.Common
+  - VRC.Udon.VRCWrapperModules
+  - SDKBase-Legacy
+  - VRC.Dynamics
+  - VRCSDKBase
+  - VRC.Utility
+  - portmidi
+  - VRC.Udon.ClientBindings
+  - Blake2Sharp
+  - System.Text.Encoding.CodePages
+  - Collections.Pooled
+  - UnityAdsLoadListener
+  - AudioPluginOculusSpatializer
+  m_EditorPlugins:
+  - VRC.Udon.VRCGraphModules
+  - VRC.Udon.EditorBindings
+  - 0Harmony
+  - VRC.SDK3.Dynamics.Contact.Editor
+  - libvrc_shader_compiler_plugin
+  - Mono.Cecil.Pdb
+  - log4netPlastic
+  - vrc_shader_compiler_plugin
+  - VRCSDKBase-Editor
+  - Unity.Plastic.Newtonsoft.Json
+  - Unity.Analytics.Editor
+  - Microsoft.CodeAnalysis.CSharp
+  - VRC.Udon.VRCTypeResolverModules
+  - Unity.Plastic.Antlr3.Runtime
+  - zlib64Plastic
+  - Unity.Analytics.Tracker
+  - AppleEventIntegration
+  - Mono.Cecil
+  - VRC.Udon.Graph
+  - Unity.Burst.Cecil.Pdb
+  - Mono.Cecil.Rocks
+  - Microsoft.CodeAnalysis
+  - VRC.Udon.Compiler
+  - System.Reflection.Metadata
+  - VRCSDK3-Editor
+  - Mono.Cecil.Mdb
+  - unityplastic
+  - Unity.Burst.Cecil.Mdb
+  - liblz4Plastic
+  - Unity.Burst.Cecil
+  - Unity.Burst.Cecil.Rocks
+  - lz4x64Plastic
+  - VRC.SDK3.Dynamics.PhysBone.Editor
+  - VRC.Udon.UAssembly
+--- !u!641289076 &-4301944131388896207
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1521398425 &-1080848563829938373
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!1126 &-915130938621996065
+PackedAssets:
+  m_ShortPath: BuildPlayer-TrainSystemDemo.sharedAssets
+  m_Overhead: 134071
+  m_Contents:
+  - fileID: 1
+    classID: 150
+    packedSize: 133
+    offset: 135264
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 2
+    classID: 142
+    packedSize: 172
+    offset: 135400
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 
+  - fileID: 3
+    classID: 21
+    packedSize: 1080
+    offset: 135576
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 4
+    classID: 21
+    packedSize: 908
+    offset: 136656
+    sourceAssetGUID: dd8192d66d921504eb1aeb1a67a3962e
+    buildTimeAssetPath: Assets/TrainSystem/Material 1.mat
+  - fileID: 5
+    classID: 21
+    packedSize: 908
+    offset: 137568
+    sourceAssetGUID: 30ed9899e5bf8f8488e1f1e2d63dbed9
+    buildTimeAssetPath: Assets/TrainSystem/Material 2.mat
+  - fileID: 6
+    classID: 21
+    packedSize: 908
+    offset: 138480
+    sourceAssetGUID: ec1769f058d73944b8b06c157bd0b9c0
+    buildTimeAssetPath: Assets/TrainSystem/Material 3.mat
+  - fileID: 7
+    classID: 21
+    packedSize: 688
+    offset: 139392
+    sourceAssetGUID: a4beea845c9905b459897504b0e5698c
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Samples/GraphicsBlitExampleScene/SampleSceneAssets/Sky.mat
+  - fileID: 8
+    classID: 28
+    packedSize: 5584
+    offset: 140080
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 9
+    classID: 28
+    packedSize: 5588
+    offset: 145664
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 10
+    classID: 28
+    packedSize: 21964
+    offset: 151256
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 11
+    classID: 28
+    packedSize: 87544
+    offset: 173224
+    sourceAssetGUID: a2cd34c0164e612479d7d3373d1a6217
+    buildTimeAssetPath: Assets/TrainSystem/TrainSystemDemo/Lightmap-0_comp_dir.png
+  - fileID: 12
+    classID: 28
+    packedSize: 87548
+    offset: 260768
+    sourceAssetGUID: f47dfd47be962104396dfa33fadd2d2c
+    buildTimeAssetPath: Assets/TrainSystem/TrainSystemDemo/Lightmap-0_comp_light.exr
+  - fileID: 13
+    classID: 48
+    packedSize: 17324
+    offset: 348320
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 14
+    classID: 48
+    packedSize: 89280
+    offset: 365648
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 15
+    classID: 48
+    packedSize: 10256
+    offset: 454928
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 16
+    classID: 74
+    packedSize: 2576
+    offset: 465184
+    sourceAssetGUID: 297a28b377e212d4bb93cb091fe89ff1
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 1.anim
+  - fileID: 17
+    classID: 74
+    packedSize: 2576
+    offset: 467760
+    sourceAssetGUID: 52ef27766860ca74492342ba527f076f
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 10.anim
+  - fileID: 18
+    classID: 74
+    packedSize: 2576
+    offset: 470336
+    sourceAssetGUID: ffabc11c7978d71438d26d40f365a016
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 2.anim
+  - fileID: 19
+    classID: 74
+    packedSize: 2576
+    offset: 472912
+    sourceAssetGUID: b02383525b007604da1ef76d68bfe580
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 3.anim
+  - fileID: 20
+    classID: 74
+    packedSize: 2576
+    offset: 475488
+    sourceAssetGUID: 8848ebe0a8d5c2f4ca4a8e790e00041b
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 4.anim
+  - fileID: 21
+    classID: 74
+    packedSize: 2576
+    offset: 478064
+    sourceAssetGUID: 7771dfd8fa63c374981cc4cb37307d2c
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 5.anim
+  - fileID: 22
+    classID: 74
+    packedSize: 2576
+    offset: 480640
+    sourceAssetGUID: 77b0445e220316146af4ef391ef10287
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 6.anim
+  - fileID: 23
+    classID: 74
+    packedSize: 2576
+    offset: 483216
+    sourceAssetGUID: 8fb4fda83630871418e8baca4a551b5c
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 7.anim
+  - fileID: 24
+    classID: 74
+    packedSize: 2576
+    offset: 485792
+    sourceAssetGUID: ea99899d6bd84694889352907dee9542
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 8.anim
+  - fileID: 25
+    classID: 74
+    packedSize: 2576
+    offset: 488368
+    sourceAssetGUID: a443fa918269aee4183ca911e723ad15
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/LTile 9.anim
+  - fileID: 26
+    classID: 74
+    packedSize: 2368
+    offset: 490944
+    sourceAssetGUID: e3f3db31c0c16f64da98e054675433fe
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/Tiles 100m/Tile Empty.anim
+  - fileID: 27
+    classID: 89
+    packedSize: 131444
+    offset: 493312
+    sourceAssetGUID: 33dc0a8622a80c44e93b7573c67c0b2c
+    buildTimeAssetPath: Assets/TrainSystem/TrainSystemDemo/ReflectionProbe-1.exr
+  - fileID: 28
+    classID: 89
+    packedSize: 131444
+    offset: 624760
+    sourceAssetGUID: 457eb111a5f505e4b94cfcc2edaac42b
+    buildTimeAssetPath: Assets/TrainSystem/TrainSystemDemo/ReflectionProbe-0.exr
+  - fileID: 29
+    classID: 91
+    packedSize: 9124
+    offset: 756208
+    sourceAssetGUID: bf9f3bf97373087408cda5e66eabec61
+    buildTimeAssetPath: Assets/TrainSystem/TileMovement/TileMovement.controller
+  - fileID: 30
+    classID: 115
+    packedSize: 92
+    offset: 133968
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 31
+    classID: 115
+    packedSize: 96
+    offset: 134064
+    sourceAssetGUID: 4ecd63eff847044b68db9453ce219299
+    buildTimeAssetPath: Packages/com.vrchat.base/Runtime/VRCSDK/Plugins/VRCCore-Editor.dll
+  - fileID: 32
+    classID: 115
+    packedSize: 108
+    offset: 134160
+    sourceAssetGUID: 661092b4961be7145bfbe56e1e62337b
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/VRCSDK/Plugins/VRCSDK3.dll
+  - fileID: 33
+    classID: 115
+    packedSize: 92
+    offset: 134272
+    sourceAssetGUID: 0cd44c1031e13a943bb63640046fad76
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs
+  - fileID: 34
+    classID: 115
+    packedSize: 84
+    offset: 134368
+    sourceAssetGUID: 45115577ef41a5b4ca741ed302693907
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/UdonBehaviour.cs
+  - fileID: 35
+    classID: 115
+    packedSize: 84
+    offset: 134456
+    sourceAssetGUID: 4e29b1a8efbd4b44bb3f3716e73f07ff
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Button.cs
+  - fileID: 36
+    classID: 115
+    packedSize: 124
+    offset: 134544
+    sourceAssetGUID: 4f231c4fb786f3946a6b90b886c48677
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/InputModules/StandaloneInputModule.cs
+  - fileID: 37
+    classID: 115
+    packedSize: 76
+    offset: 134672
+    sourceAssetGUID: 5f7201a12d95ffc409449d95f23cf332
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Text.cs
+  - fileID: 38
+    classID: 115
+    packedSize: 84
+    offset: 134752
+    sourceAssetGUID: 67db9e8f0e2ae9c40bc1e2b64352a6b4
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Slider.cs
+  - fileID: 39
+    classID: 115
+    packedSize: 100
+    offset: 134840
+    sourceAssetGUID: 76c392e42b5098c458856cdf6ecaaaa1
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/EventSystem/EventSystem.cs
+  - fileID: 40
+    classID: 115
+    packedSize: 124
+    offset: 134944
+    sourceAssetGUID: bf61d954ecb803046953c666facfb904
+    buildTimeAssetPath: Packages/com.vrchat.worlds/Runtime/Udon/ProgramSources/SerializedUdonProgramAsset.cs
+  - fileID: 41
+    classID: 115
+    packedSize: 100
+    offset: 135072
+    sourceAssetGUID: dc42784cf147c0c48a680349fa168899
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/GraphicRaycaster.cs
+  - fileID: 42
+    classID: 115
+    packedSize: 84
+    offset: 135176
+    sourceAssetGUID: fe87c0e1cc204ed48ad3b37840f39efc
+    buildTimeAssetPath: Packages/com.unity.ugui/Runtime/UI/Core/Image.cs
+  - fileID: 43
+    classID: 213
+    packedSize: 568
+    offset: 765336
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 44
+    classID: 213
+    packedSize: 572
+    offset: 765904
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 45
+    classID: 213
+    packedSize: 632
+    offset: 766480
+    sourceAssetGUID: 0000000000000000f000000000000000
+    buildTimeAssetPath: Resources/unity_builtin_extra
+  - fileID: 46
+    classID: 258
+    packedSize: 40
+    offset: 767112
+    sourceAssetGUID: af232e6f35b5a5548848222ec7a58e9c
+    buildTimeAssetPath: Assets/TrainSystem/TrainSystemDemo/LightingData.asset
+  - fileID: 47
+    classID: 363
+    packedSize: 2304
+    offset: 767152
+    sourceAssetGUID: 0eabff36a6fd5f342955398a2c1ec760
+    buildTimeAssetPath: Assets/TrainSystem/TrainSystemDemo/OcclusionCullingData.asset
+  - fileID: 48
+    classID: 114
+    packedSize: 8400
+    offset: 769456
+    sourceAssetGUID: 3b7ef2b6b71dd6a478c6efff00af8abc
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/3ed0bacee04112947bfa9a4e37ce4251.asset
+  - fileID: 49
+    classID: 114
+    packedSize: 2820
+    offset: 777856
+    sourceAssetGUID: 787f7a084dfddb546bc6a4b63d0b8cd4
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/566cc00e27d5822449529a3785eae366.asset
+  - fileID: 50
+    classID: 114
+    packedSize: 1648
+    offset: 780680
+    sourceAssetGUID: 63e0994ae242202458aa21407b434500
+    buildTimeAssetPath: Assets/SerializedUdonPrograms/c8df303ceb45ae84f85a11591f741734.asset
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LastWindowsBuild
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638386802118180971
+    buildGUID: 00000000000000000000000000000000
+    platformName: Win64
+    platformGroupName: Standalone
+    subtarget: 0
+    options: 0
+    assetBundleOptions: 32
+    outputPath: C:/Users/denni/AppData/Local/Temp/DefaultCompany/New Project
+    crc: 4218731537
+    totalSize: 270659
+    totalTimeTicks: 32676857
+    totalErrors: 0
+    totalWarnings: 0
+    buildType: 2
+    buildResult: 1
+  m_Files:
+  - path: C:/UnityProjects/New Project/scene-standalonewindows64-trainsystemdemo.vrcw/BuildPlayer-TrainSystemDemo
+    role: Scene
+    id: 0
+    totalSize: 364948
+  - path: C:/UnityProjects/New Project/scene-standalonewindows64-trainsystemdemo.vrcw/BuildPlayer-TrainSystemDemo.sharedAssets
+    role: SharedAssets
+    id: 1
+    totalSize: 782328
+  - path: C:/UnityProjects/New Project/scene-standalonewindows64-trainsystemdemo.vrcw
+    role: AssetBundle
+    id: 2
+    totalSize: 266621
+  - path: C:/UnityProjects/New Project/scene-standalonewindows64-trainsystemdemo.vrcw.manifest
+    role: AssetBundleTextManifest
+    id: 3
+    totalSize: 2809
+  - path: C:/UnityProjects/New Project/New Project/CAB-8684dde4a61a81976908e677bbcc3bf9
+    role: ResourcesFile
+    id: 4
+    totalSize: 4252
+  - path: C:/UnityProjects/New Project/New Project
+    role: ManifestAssetBundle
+    id: 5
+    totalSize: 1055
+  - path: C:/UnityProjects/New Project/New Project.manifest
+    role: AssetBundleTextManifest
+    id: 6
+    totalSize: 174
+  m_BuildSteps:
+  - stepName: Build Asset Bundles
+    durationTicks: 32676857
+    depth: 0
+    messages: []
+  - stepName: Calculate asset bundles to be built
+    durationTicks: 72244
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 8657946
+    depth: 1
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 8510641
+    depth: 2
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 95975
+    depth: 2
+    messages: []
+  - stepName: Build Scene AssetBundle(s)
+    durationTicks: 16324530
+    depth: 1
+    messages: []
+  - stepName: 'Build bundle: scene-standalonewindows64-trainsystemdemo.vrcw'
+    durationTicks: 15046863
+    depth: 2
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 276605
+    depth: 3
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 368622
+    depth: 3
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 3478
+    depth: 3
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Building scenes
+    durationTicks: 6090736
+    depth: 3
+    messages: []
+  - stepName: Building scene Assets/TrainSystem/TrainSystemDemo.unity
+    durationTicks: 6090660
+    depth: 4
+    messages: []
+  - stepName: Writing asset files
+    durationTicks: 3308679
+    depth: 3
+    messages: []
+  - stepName: Packaging assets - archive:/BuildPlayer-TrainSystemDemo/BuildPlayer-TrainSystemDemo.sharedAssets
+    durationTicks: 3265097
+    depth: 4
+    messages: []
+  - stepName: Creating compressed player package
+    durationTicks: 1632594
+    depth: 3
+    messages: []
+  - stepName: Write data build dirty tracking information
+    durationTicks: 51243
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 172115
+    depth: 3
+    messages: []
+  m_Appendices:
+  - {fileID: 4228179321307979818}
+  - {fileID: -915130938621996065}
+  - {fileID: -8417344398779350675}
+  - {fileID: -4301944131388896207}
+  - {fileID: -1080848563829938373}
+  - {fileID: 3666744052743691685}
+--- !u!1126 &3666744052743691685
+PackedAssets:
+  m_ShortPath: CAB-8684dde4a61a81976908e677bbcc3bf9
+  m_Overhead: 4032
+  m_Contents:
+  - fileID: 1
+    classID: 142
+    packedSize: 104
+    offset: 4032
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: AssetBundle Object
+  - fileID: 2
+    classID: 290
+    packedSize: 116
+    offset: 4136
+    sourceAssetGUID: 00000000000000000000000000000000
+    buildTimeAssetPath: 'Built-in AssetBundleManifest: AssetBundleManifest'
+--- !u!668709126 &4228179321307979818
+BuiltAssetBundleInfoSet:
+  bundleInfos:
+  - bundleName: scene-standalonewindows64-trainsystemdemo.vrcw
+    bundleArchiveFile: 2
+    packagedFileIndices: 0000000001000000
+  - bundleName: New Project
+    bundleArchiveFile: 5
+    packagedFileIndices: 04000000
